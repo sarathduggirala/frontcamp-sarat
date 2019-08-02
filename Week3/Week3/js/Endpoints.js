@@ -1,5 +1,6 @@
+const BASE_URL=https://newsapi.org/v1;
 export const newsApiEndPoint = {
-  getAllChannelsEndpoint: "https://newsapi.org/v1/sources",
+  getAllChannelsEndpoint: BASE_URL+"/sources",
     key: "14b7044bd2344c1b9df240b47ce63239",
-  articlesEndPoint: "https://newsapi.org/v1/articles?"
+  articlesEndPoint: BASE_URL+"/articles?"
 };
